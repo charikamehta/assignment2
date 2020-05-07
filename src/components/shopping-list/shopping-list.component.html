@@ -1,0 +1,52 @@
+<app-header (searchValueChanged)="updateFilter($event)"></app-header>
+<section class="back-clr">
+  <div class="row">
+    <div class="col-md-2">
+      <app-filter (filteredList)="filterList($event)"></app-filter>
+    </div>
+    <div class="col-md-10">
+      <app-sort (sortedList)="sortList($event)"></app-sort>
+      <br />
+
+      <div class="row">
+        <div
+          class="col-md-2 product-space"
+          *ngFor="let product of response | search: searchText"
+        >
+          <img class="product-img" src="{{ product.img }}" />
+
+          <p>{{ product.productName }}</p>
+          <p class="new-price">
+            <strong>&#8377;{{ product.newPrice }} &nbsp;</strong>
+          </p>
+          <p class="new-price line">
+            <strong>{{ product.originalPrice }} </strong>
+          </p>
+          <p class="new-price discount">
+            <strong>&nbsp; {{ product.discount }}</strong>
+          </p>
+          <button
+            type="button"
+            class="btn btn-warning apply"
+            (click)="addToCart(product)"
+          >
+            Add to Cart
+          </button>
+        </div>
+        <!-- <div class="col-md-2 product-space">
+            product   
+        </div>
+        <div class="col-md-2 product-space">
+            product  
+        </div>
+        <div class="col-md-2 product-space">
+            product   
+        </div>
+        <div class="col-md-2 product-space">
+            product   
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+<app-footer></app-footer>

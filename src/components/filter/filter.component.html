@@ -1,0 +1,12 @@
+<div class="filter">
+  <h6 class="filterSpacing"><strong>Filters</strong></h6>
+  <div class="filterSpacing price">
+    Low: <input class="low" type="text" [(ngModel)]="low" />
+  </div>
+  <div class="filterSpacing price">
+    High: <input class="low" type="text" [(ngModel)]="high" />
+  </div>
+  <button type="button" class="btn btn-primary apply" (click)="apply()">
+    Apply
+  </button>
+</div>

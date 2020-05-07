@@ -1,0 +1,37 @@
+.sort {
+  margin-top: 2%;
+}
+.sort1 {
+  margin-top: 2%;
+  margin-left: -8%;
+}
+.price {
+  display: inline-block !important;
+  color: #84a9ac;
+  font-size: 13px;
+  font-weight: 500 !important;
+  margin-right: 5% !important;
+}
+
+.price:hover {
+  color: #0475d7;
+  text-decoration: underline #0475d7;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .sort1 {
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .sort {
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+  .sort1 {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+}

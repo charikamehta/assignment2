@@ -1,0 +1,78 @@
+<div class="navbar">
+  <i class="fa fa-star fa-2x starIcon" aria-hidden="true"></i>
+  <div class="navbar-right">
+    <div class="searchBlock">
+      <input
+        [(ngModel)]="searchText"
+        class="searchBar"
+        type="text"
+        placeholder="Search"
+      />
+      <span class="searchIconSpan"
+        ><i class="fa fa-search fa-lg searchIcon1" aria-hidden="true"></i
+      ></span>
+    </div>
+  </div>
+</div>
+<section class="back-clr">
+  <div class="row">
+    <div class="col-8">
+      <div class="card1" *ngFor="let item of cartArray | search: searchText">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-2">
+              <img src="{{ item.img }}" class="product-img" />
+            </div>
+
+            <div class="col-3 priceDescription">
+              <p class="item">{{ item.productName }}</p>
+              <p class="new-price">
+                <strong>&#8377;{{ item.newPrice }} &nbsp;</strong>
+              </p>
+              <p class="new-price line">
+                <strong>{{ item.originalPrice }} </strong>
+              </p>
+              <p class="new-price discount">
+                <strong>&nbsp;{{ item.discount }}</strong>
+              </p>
+            </div>
+            <div class="col-3 inc">
+              <button class="dec" (click)="onDecrement(item)">-</button>
+              <input class="quantity" type="text" [(ngModel)]="item.quantity" />
+              <button class="dec" (click)="onIncrement(item)">+</button>
+            </div>
+            <div class="col-2 inc1">
+              <p class="remove" (click)="removeItem(item)">
+                <strong>REMOVE</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card">
+        <div class="card-body2">
+          <p class="price"><strong>PRICE DETAILS</strong></p>
+          <hr />
+          <div>
+            <p class="details">Price ({{ size }} item(s))</p>
+            <p class="details1">:</p>
+            <p class="details2">&#8377;{{ total }}</p>
+          </div>
+          <div>
+            <p class="details">Discount</p>
+            <p class="details3">:</p>
+            <p class="details5">&#8377;{{ totalDiscount }}</p>
+          </div>
+          <hr class="total" />
+          <div class="totalDetails">
+            <p class="details"><strong>Total Payable</strong></p>
+            <p class="details4">&#8377;{{ amount }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<app-footer></app-footer>

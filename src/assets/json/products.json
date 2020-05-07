@@ -1,0 +1,137 @@
+[
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item1",
+    "newPrice": "300",
+    "originalPrice": "900",
+    "discount": "66% off",
+    "discountRate": "66",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/images.jpg",
+    "productName": "Item2",
+    "newPrice": "400",
+    "originalPrice": "900",
+    "discount": "55% off",
+    "discountRate": "55",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item3",
+    "newPrice": "500",
+    "originalPrice": "900",
+    "discount": "45% off",
+    "discountRate": "45",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/images.jpg",
+    "productName": "Item4",
+    "newPrice": "600",
+    "originalPrice": "900",
+    "discount": "33% off",
+    "discountRate": "33",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item5",
+    "newPrice": "700",
+    "originalPrice": "900",
+    "discount": "22% off",
+    "discountRate": "22",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item1",
+    "newPrice": "600",
+    "originalPrice": "900",
+    "discount": "33% off",
+    "discountRate": "33",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/images.jpg",
+    "productName": "Item2",
+    "newPrice": "800",
+    "originalPrice": "900",
+    "discount": "11% off",
+    "discountRate": "11",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item3",
+    "newPrice": "1000",
+    "originalPrice": "1800",
+    "discount": "44% off",
+    "discountRate": "44",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/images.jpg",
+    "productName": "Item4",
+    "newPrice": "1200",
+    "originalPrice": "1800",
+    "discount": "33% off",
+    "discountRate": "33",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item5",
+    "newPrice": "1400",
+    "originalPrice": "1800",
+    "discount": "22% off",
+    "discountRate": "22",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item1",
+    "newPrice": "900",
+    "originalPrice": "1800",
+    "discount": "50% off",
+    "discountRate": "50",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/images.jpg",
+    "productName": "Item2",
+    "newPrice": "1200",
+    "originalPrice": "1800",
+    "discount": "33% off",
+    "discountRate": "33",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item3",
+    "newPrice": "1500",
+    "originalPrice": "1800",
+    "discount": "16% off",
+    "discountRate": "16",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/images.jpg",
+    "productName": "Item4",
+    "newPrice": "1800",
+    "originalPrice": "2700",
+    "discount": "33% off",
+    "discountRate": "33",
+    "quantity": "1"
+  },
+  {
+    "img": "./assets/images/photo-1511385348-a52b4a160dc2.jpg",
+    "productName": "Item5",
+    "newPrice": "2100",
+    "originalPrice": "2700",
+    "discount": "22% off",
+    "discountRate": "22",
+    "quantity": "1"
+  }
+]
